@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="title">E-Commerce Platform</h1>
+
+    <h2 class="section-title">I T E M S</h2>
+    <div class="items-container">
+        <div class="product">
+            <img src="./images/Samsung Galaxy S22.jpeg" alt="Item 1">
+            <h3>Samsung Galaxy S22</h3>
+            <button class="add-to-cart" data-name="Samsung Galaxy S22" data-price="999">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="./images/iPhone 13.jpg" alt="Item 2">
+            <h3>iPhone 13</h3>
+            <button class="add-to-cart" data-name="iPhone 13" data-price="899">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="./images/Google Pixel 6.webp" alt="Item 3">
+            <h3>Google Pixel 6</h3>
+            <button class="add-to-cart" data-name="Google Pixel 6" data-price="799">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="./images/OnePlus 9.jpg" alt="Item 4">
+            <h3>OnePlus 9</h3>
+            <button class="add-to-cart" data-name="OnePlus 9" data-price="699">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="./images/Samsung Galaxy Z Flip.jpeg" alt="Item 5">
+            <h3>Samsung Galaxy Z Flip</h3>
+            <button class="add-to-cart" data-name="Samsung Galaxy Z Flip" data-price="1099">Add to Cart</button>
+        </div>
+    </div>
+
+    <h2 class="section-title">C A R T</h2>
+    <div class="cart">
+        <div class="shopping-cart-section">
+            <img src="./images/cart.png" alt="Shopping Cart" class="cart-image">
+        </div>
+        
+        <div id="cart-items"></div>
+        <p><b>Total: $<span id="cart-total">0</span></b></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
